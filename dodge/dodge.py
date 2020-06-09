@@ -30,9 +30,9 @@ total_level_list = [10, 30, 50, 70, 90, 100, 120, 150, 180, 200, 250, 300, 350, 
 
 game_font = pygame.font.Font(None, 20)
 
-background = pygame.image.load("pygame_basic/back.png")
+background = pygame.image.load("dodge/back.png")
 
-player = pygame.image.load("pygame_basic/player_small.png")
+player = pygame.image.load("dodge/player_small.png")
 player_size = player.get_rect().size
 player_width = player_size[0]
 plyaer_height = player_size[1]
@@ -49,7 +49,7 @@ player_speed = 0.3
 
 enemy_list = list()
 class enemy_class:
-    enemy_image = pygame.image.load("pygame_basic\enemy_small.png")
+    enemy_image = pygame.image.load("dodge\enemy_small.png")
     enemy_size = enemy_image.get_rect().size
     enemy_width = enemy_size[0]
     enemy_height = enemy_size[1]
